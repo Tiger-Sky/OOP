@@ -18,10 +18,12 @@ public class run {
                 {
                     case (1): 
                     {
+                        scanner.nextLine(); 
                         System.out.println("Nhap ten");
                         String HoTen = scanner.nextLine();
                         System.out.println("Nhap tuoi");
                         int Tuoi = scanner.nextInt();
+                        scanner.nextLine(); 
                         System.out.println("Nhap Truong");
                         String Truong = scanner.nextLine();
                         hocsinh hs = new hocsinh(HoTen, Tuoi, Truong);
@@ -39,7 +41,8 @@ public class run {
                     }
                     case (2):
                     {
-                        String maso = scanner.nextLine();
+                        scanner.nextLine();
+                        String maso = scanner.nextLine( );
                         qlt.delete(maso);
                         break;
                     }

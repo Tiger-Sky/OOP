@@ -6,7 +6,6 @@ import java.util.List;
 public class QLT {
 
     private List<the> thes;
-    private List<hocsinh> hocsinhs;
 
     public QLT() {
         this.thes = new ArrayList<>();

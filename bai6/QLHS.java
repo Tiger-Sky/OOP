@@ -8,7 +8,7 @@ public class QLHS {
     {
         this.hocsinh = new ArrayList<>();
     } 
-    public static void add(HocSinh hocSinh) {
+    public void add(HocSinh hocSinh) {
         this.hocsinh.add(hocSinh);
     }
 

@@ -29,7 +29,7 @@ public class run {
                     System.out.println("Nhap Lop");
                     String Lop = scanner.nextLine();
                     HocSinh hs = new HocSinh(HoTen, Tuoi, QueQuan, Lop);
-                    QLHS.add(hs);
+                    qlhs.add(hs);
                     break;
                 }
                 case (2):
