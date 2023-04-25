@@ -12,11 +12,8 @@ public class QLT {
         this.thes = new ArrayList<>();
     }
 
-    public void add(the card) {
+    public void addthe(the card) {
         this.thes.add(card);
-    }
-    public void add(hocsinh hocsinh) {
-        this.hocsinhs.add(hocsinh);
     }
     public boolean delete(String id) {
         the card = this.thes.stream().filter(t -> t.getId().equals(id)).findFirst().orElse(null);
@@ -25,5 +22,9 @@ public class QLT {
         }
         this.thes.remove(card);
         return true;
+    }
+    public void hienthi()
+    {
+        this.thes.forEach(o -> System.out.println(o.toString()));
     }
 }

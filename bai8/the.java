@@ -54,4 +54,11 @@ public class the {
     public void setBookId(int bookId) {
         this.bookId = bookId;
     }
+
+    @Override
+    public String toString() {
+        return "the [student=" + student + ", id=" + id + ", borrowDate=" + borrowDate + ", paymentDate=" + paymentDate
+                + ", bookId=" + bookId + "]";
+    }
+    
 }

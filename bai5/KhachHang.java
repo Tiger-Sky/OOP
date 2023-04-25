@@ -1,19 +1,27 @@
-package bai4;
+package bai5;
 
-
-public class Nguoi {
+public class KhachHang {
     private String name;
     private int age;
-    private String job;
     private String passport;
+    private Phong room;
+    private int numberRent;
 
-    public Nguoi(String name, int age, String job, String passport) {
+    public KhachHang(String name, int age, String passport, Phong room, int numberRent) {
         this.name = name;
         this.age = age;
-        this.job = job;
         this.passport = passport;
+        this.numberRent = numberRent;
+        this.room = room;
     }
 
+    public int getNumberRent() {
+        return numberRent;
+    }
+
+    public void setNumberRent(int numberRent) {
+        this.numberRent = numberRent;
+    }
 
     public String getName() {
         return name;
@@ -31,14 +39,6 @@ public class Nguoi {
         this.age = age;
     }
 
-    public String getJob() {
-        return job;
-    }
-
-    public void setJob(String job) {
-        this.job = job;
-    }
-
     public String getPassport() {
         return passport;
     }
@@ -47,13 +47,19 @@ public class Nguoi {
         this.passport = passport;
     }
 
+    public Phong getRoom() {
+        return room;
+    }
+
+    public void setRoom(Phong room) {
+        this.room = room;
+    }
+
     @Override
     public String toString() {
-        return "Thông tin: " +
+        return "Khách Hàng: " +
                 "Tên: '" + name + '\'' +
                 ", Tuổi: " + age +
-                ", Nghề Nghiệp: '" + job + '\'' +
-                ", Số Chứng Minh: '" + passport + '\'' ;
-                
+                ", Số chứng minh'" + passport + '\'' + room.toString() ;
     }
 }
