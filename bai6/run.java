@@ -22,13 +22,14 @@ public class run {
                 {
                     System.out.println("Nhap ten");
                     String HoTen = scanner.nextLine();
-                    System.out.println("Nhap tuoi");
+                    System.out.println("Nhap Tuoi");
                     int Tuoi = scanner.nextInt();
-                    System.out.println("Nhap que quan");
+                    System.out.println("Nhap Que Quan");
                     String QueQuan = scanner.nextLine();
-                    System.out.println("nhap lop");
+                    System.out.println("Nhap Lop");
                     String Lop = scanner.nextLine();
                     HocSinh hs = new HocSinh(HoTen, Tuoi, QueQuan, Lop);
+                    QLHS.add(hs);
                     break;
                 }
                 case (2):
@@ -52,5 +53,6 @@ public class run {
                 }
             }
         }
+
     }
 }
