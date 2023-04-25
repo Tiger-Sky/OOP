@@ -7,7 +7,7 @@ public class chay {
         TuyenSinh ts = new TuyenSinh();
         Scanner sc = new Scanner(System.in);
         while (true) {
-        System.out.println("===== CHƯƠNG TRÌNH QUẢN LÝ THÍ SINH ĐĂNG KÝ THI ĐẠI HỌC =====");
+        System.out.println("===== CHƯƠNG TRÌNH QUẢN LÝ THÍ SINH DỰ THI ĐẠI HỌC =====");
         System.out.println("1. Thêm mới thí sinh.");
         System.out.println("2. Hiển thị thông tin thí sinh và khối thi của thí sinh.");
         System.out.println("3. Tìm kiếm thí sinh theo số báo danh.");
