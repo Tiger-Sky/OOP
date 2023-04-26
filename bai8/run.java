@@ -12,7 +12,7 @@ public class run {
                 System.out.println("chon 1: them the");
                 System.out.println("chon 2: Xoa the");
                 System.out.println("chon 3: Hien thi");
-                System.out.println("chon 4: de thoat");
+                System.out.println("chon 4: de thoat"); // check
                 int i = scanner.nextInt();
                 switch(i)
                 {
