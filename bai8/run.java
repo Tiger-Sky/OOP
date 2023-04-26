@@ -7,7 +7,7 @@ public class run {
             QLT qlt = new QLT();
             while (true)
             {
-
+//
                 System.out.println("chon 1-4");
                 System.out.println("chon 1: them the");
                 System.out.println("chon 2: Xoa the");
