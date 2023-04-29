@@ -19,3 +19,4 @@ public class HinhTron {
         return radius * 2 *3.14;
     }
 }
+ 

@@ -35,3 +35,4 @@ public class Nguoi {
         System.out.println("Dia chi: " + addr);
     }    
 }
+ 
