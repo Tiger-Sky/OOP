@@ -5,4 +5,3 @@ public interface NguoiDung {
     public void DangKy();
     public void DangXuat();
 }
- 
